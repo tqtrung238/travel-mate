@@ -66,8 +66,6 @@
 <script>
 
 export default {
-  name: "Notification",
-  data() {
-  },
-};
+  name: "Notification"
+}
 </script>

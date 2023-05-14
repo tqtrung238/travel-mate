@@ -1,14 +1,13 @@
 <template>
-  <div class="app-container">
-    <!-- $t is vue-i18n global function to translate lang -->
-    <img src="https://www.belaroundtheworld.com/wp-content/uploads/2015/07/Screen-Shot-2016-06-13-at-8.51.21-pm.png">
-  </div>
+  <div> 
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1yvewq3Xh-sWE1eAtVWKzJJrx-oH-_N0&ehbc=2E312F" width="100%" height="750"></iframe>
+  </div> 
 </template>
+
 <script>
 
 export default {
-  name: "Tour-recommend",
-  data() {
-  },
-};
+  name: "Tour-recommend"
+}
 </script>
+

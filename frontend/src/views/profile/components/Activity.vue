@@ -7,11 +7,8 @@
         <span class="description">Shared publicly - 7:30 PM today</span>
       </div>
       <p>
-        Lorem ipsum represents a long-held tradition for designers,
-        typographers and the like. Some people hate it and argue for
-        its demise, but others ignore the hate as they create awesome
-        tools to help create filler text for everyone from bacon lovers
-        to Charlie Sheen fans.
+        Bãi Sao: Được coi là một trong những bãi biển đẹp nhất ở Phú Quốc với cát trắng mịn,
+        nước biển trong xanh và không quá đông đúc. Bạn có thể tắm nắng, tắm biển và thư giãn tại đây.
       </p>
       <ul class="list-inline">
         <li>
@@ -35,11 +32,9 @@
         <span class="description">Sent you a message - yesterday</span>
       </div>
       <p>
-        Lorem ipsum represents a long-held tradition for designers,
-        typographers and the like. Some people hate it and argue for
-        its demise, but others ignore the hate as they create awesome
-        tools to help create filler text for everyone from bacon lovers
-        to Charlie Sheen fans.
+        Cáp treo Hòn Thơm: Tận hưởng cảnh quan tuyệt đẹp của đảo Hòn Thơm và quang cảnh vịnh núi rừng từ trên cao khi đi cáp treo. 
+        Bạn có thể tham quan Công viên Safari, 
+        Công viên Trúc Lâm, hay tham gia các hoạt động như câu cá, lướt ván, và tham quan hệ sinh thái biển.
       </p>
       <ul class="list-inline">
         <li>

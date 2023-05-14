@@ -117,7 +117,6 @@
 
 <script>
 import { getMembers,updateMember } from '@/api/role'
-import waves from '@/directive/waves' // waves directive
 import { parseTime } from '@/utils'
 import Pagination from '@/components/Pagination' // secondary package based on el-pagination
 
@@ -233,14 +232,14 @@ export default {
     },
     handleDelete(row, index) {
       row.status = 0
-      deleteUser(row)
+      // deleteUser(row)
       this.$notify({
         title: 'Thành công',
         message: 'Xóa thành công',
         type: 'success',
         duration: 2000
       })
-      this.list.splice(index, 1)
+      this.listUserApprove.splice(index, 1)
     },
     
     handleFilter() {

@@ -160,10 +160,10 @@ export const asyncRoutes = [
     component: Layout,
     children: [
       {
-        path: 'tour-recommend',
-        component: () => import('@/views/tour-recommend/index'),
-        name: 'Tour-recommend',
-        meta: { title: 'Gợi ý hành trình', icon: 'guide' }
+        path: 'queuing-time',
+        component: () => import('@/views/queuingtime/index'),
+        name: 'QueuingTime',
+        meta: { title: 'Thống kê', icon: 'dashboard' }
       }
     ]
   },
@@ -172,10 +172,22 @@ export const asyncRoutes = [
     component: Layout,
     children: [
       {
-        path: 'history',
-        component: () => import('@/views/history/index'),
-        name: 'History',
-        meta: { title: 'Lịch sử', icon: 'form' }
+        path: 'poi-recommend',
+        component: () => import('@/views/poi-recommend/index'),
+        name: 'POI-recommend',
+        meta: { title: 'Gợi ý điểm tham quan', icon: 'search' }
+      }
+    ]
+  },
+  {
+    path: '/',
+    component: Layout,
+    children: [
+      {
+        path: 'tour-recommend',
+        component: () => import('@/views/tour-recommend/index'),
+        name: 'Tour-recommend',
+        meta: { title: 'Gợi ý hành trình', icon: 'guide' }
       }
     ]
   },

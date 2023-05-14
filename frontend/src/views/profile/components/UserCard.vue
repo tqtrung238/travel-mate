@@ -8,12 +8,12 @@
       <div class="box-center">
         <pan-thumb :image="user.avatar" :height="'100px'" :width="'100px'" :hoverable="false">
           <div>Hello</div>
-          {{ user.role }}
+          Quang Trung
         </pan-thumb>
       </div>
       <div class="box-center">
         <div class="user-name text-center">{{ user.name }}</div>
-        <div class="user-role text-center text-muted">{{ user.role | uppercaseFirst }}</div>
+        <div class="user-role text-center text-muted">User</div>
       </div>
     </div>
 
@@ -30,19 +30,7 @@
       <div class="user-skills user-bio-section">
         <div class="user-bio-section-header"><svg-icon icon-class="skill" /><span>Sở thích</span></div>
         <div class="user-bio-section-body">
-          <div class="progress-item">
-            <span>Bảo tàng lịch sử</span>
-            
-          </div>
-          <div class="progress-item">
-            <span>Công viên giải trí</span>
-          </div>
-          <div class="progress-item">
-            <span>Bãi biển</span>
-          </div>
-          <div class="progress-item">
-            <span>Di tích lịch sử</span>
-          </div>
+          <todo-list />
         </div>
       </div>
     </div>
@@ -51,9 +39,9 @@
 
 <script>
 import PanThumb from '@/components/PanThumb'
-
+import TodoList from './TodoList'
 export default {
-  components: { PanThumb },
+  components: { PanThumb, TodoList },
   props: {
     user: {
       type: Object,
